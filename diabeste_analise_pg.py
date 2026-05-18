@@ -42,4 +42,5 @@ sns.heatmap(comparacao_medias.T, annot=True, cmap='PuRd', fmt='.2f', robust=True
 axes[1, 1].set_title('Mapa de Calor: Diferença das Médias Gerais', fontsize=14)
 sns.despine() 
 plt.tight_layout() 
+plt.savefig('dashboard_diabetes_final.png', dpi=300, bbox_inches='tight')
 plt.show()
