@@ -1,6 +1,3 @@
-# comparar a média de todas as colunas entre os dois grupos
-comparacao_medias = df.groupby('Outcome').mean(numeric_only=True)
-comparacao_medias.round(2)
 plt.figure(figsize=(10, 6))
 
 # cores baseadas em códigos RGB
